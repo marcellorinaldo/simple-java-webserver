@@ -19,3 +19,5 @@ http://localhost:80
 ```
 
 You can also build a Docker container using the provided [`Dockerfile`](https://github.com/marcellorinaldo/simple-java-webserver/blob/main/webserver/Dockerfile) that will expose the server on port 80.
+
+<a href="http://www.wtfpl.net/"><img src="http://www.wtfpl.net/wp-content/uploads/2012/12/wtfpl-badge-4.png" width="80" height="15" alt="WTFPL" /></a>
