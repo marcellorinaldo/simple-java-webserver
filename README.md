@@ -18,4 +18,4 @@ Put the `index.html` file to display inside `webserver/www/`. Access the page fr
 http://localhost:80
 ```
 
-You can also build a Docker container using the provided `Dockerfile` that will expose the server on port 80.
+You can also build a Docker container using the provided [`Dockerfile`](https://github.com/marcellorinaldo/simple-java-webserver/blob/main/webserver/Dockerfile) that will expose the server on port 80.
