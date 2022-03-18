@@ -9,21 +9,20 @@ public class Main {
         int port = 80;
         boolean help = false;
 
-        for(int i=0; i<args.length; i++) {
-            if(args[i].equals(PORT_OPTION)) {
+        for (int i=0; i<args.length; i++) {
+            if (args[i].equals(PORT_OPTION)) {
                 port = Integer.parseInt(args[++i]);
             }
-            if(args[i].equals(HELP_OPTION)) {
+            if (args[i].equals(HELP_OPTION)) {
                 help = true;
             }
         }
 
-        if(help) {
+        if (help) {
             printUsage();
         }
 
         System.out.println("Starting webserver @localhost:" + port);
-
         new WebServer(port).start();
     }
 
