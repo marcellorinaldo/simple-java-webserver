@@ -2,7 +2,7 @@
 
 This is a simple webserver written in Java.
 
-To build using Maven, `cd` to the `webserver` directory and type:
+To build using Maven, `cd` into the `webserver` directory and type:
 ```
 mvn clean package assembly:single
 ```
