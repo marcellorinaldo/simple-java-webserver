@@ -24,6 +24,7 @@ public class Main {
 
         System.out.println("Starting webserver @localhost:" + port);
         new WebServer(port).start();
+        System.out.println("Webserver started. Press CTRL+C to stop it.");
     }
 
     private static void printUsage() {
