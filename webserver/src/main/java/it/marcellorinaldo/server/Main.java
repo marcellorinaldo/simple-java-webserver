@@ -1,6 +1,6 @@
 package it.marcellorinaldo.server;
 
-public class WebServer {
+public class Main {
 
     private static String PORT_OPTION = "-p";
     private static String HELP_OPTION = "-h";
